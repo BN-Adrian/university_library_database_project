@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="librarie" id="DAB036BC-DE27-D45C-9358-36261D2FF778" version="3.5">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:12:00 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DAB036BC-DE27-D45C-9358-36261D2FF778</designId>
+</OSDM_Design>

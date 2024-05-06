@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="010F885E-99E4-C017-D634-05D0830B3AFB" name="Student">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>1F8562D0-B26E-3630-9026-618AD23EC9D2</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_student" id="9BD192E9-4D25-AEA2-7B14-3B912586A06F">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>16EB4F5A-7DC4-3D54-E99C-F4EFE12D8C39</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15C3FAEB-ABF0-9A8F-27E2-52B342A83705" referredColumn="E93424B6-7D43-A661-1606-C43BAD245477"/>
+</associations>
+</Column>
+<Column name="id_facultate" id="5BE1A12E-7E1A-979A-718C-953FE013357F">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>5C49422F-EEC8-B953-3A9C-9C7CD42AC1EB</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15C3FAEB-ABF0-9A8F-27E2-52B342A83705" referredColumn="F64FFAA2-3110-A4DD-F3F0-11D1550C800A"/>
+</associations>
+</Column>
+<Column name="nume_student" id="9A517E47-471C-4E30-B72D-75FACB54DF9E">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>13C44256-C24A-A328-A2ED-9A05558EDD83</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_student1" id="944822B7-1EF0-5537-AF9A-E503B8BBB87F">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>F8B25ACB-E728-CEFD-181E-6BFDAE9C5826</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77060B9F-A57D-8B3F-3B4E-6A316F26C677" name="Student_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>3CF323D0-41FA-0DCB-39B9-35F704D2E0D1</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BD192E9-4D25-AEA2-7B14-3B912586A06F"/>
+<colUsage columnID="5BE1A12E-7E1A-979A-718C-953FE013357F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3805CD7-C3EB-7C63-D1BF-465B8D82F79A" name="Student_Utilizatori_FK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>4117036B-DCE5-226C-3960-F3EF1036A96E</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BD192E9-4D25-AEA2-7B14-3B912586A06F"/>
+<colUsage columnID="5BE1A12E-7E1A-979A-718C-953FE013357F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

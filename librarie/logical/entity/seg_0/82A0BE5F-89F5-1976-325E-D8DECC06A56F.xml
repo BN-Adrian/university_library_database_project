@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82A0BE5F-89F5-1976-325E-D8DECC06A56F" name="Utilizatori">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:26:42 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id student" id="16EB4F5A-7DC4-3D54-E99C-F4EFE12D8C39">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:27:26 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id facultate" id="5C49422F-EEC8-B953-3A9C-9C7CD42AC1EB">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:28:26 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id categorie" id="9C43F4D9-D9F6-E479-DE7C-4AC08598C7FF">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:56:49 UTC</createdTime>
+<generatorID>C8BA5245-402C-FE76-A43D-506423205584</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<referedAttribute>9FA2CCF6-5E90-B4FB-1558-7EE1FEA0B116</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CF323D0-41FA-0DCB-39B9-35F704D2E0D1" name="Key_1">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:29:19 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>16EB4F5A-7DC4-3D54-E99C-F4EFE12D8C39,5C49422F-EEC8-B953-3A9C-9C7CD42AC1EB,C8BA5245-402C-FE76-A43D-506423205584</newElementsIDs>
+<usedAttributes>
+<attributeRef>16EB4F5A-7DC4-3D54-E99C-F4EFE12D8C39</attributeRef>
+<attributeRef>5C49422F-EEC8-B953-3A9C-9C7CD42AC1EB</attributeRef>
+<attributeRef>9C43F4D9-D9F6-E479-DE7C-4AC08598C7FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

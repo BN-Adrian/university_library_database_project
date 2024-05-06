@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F9A0112-12BD-26AA-7CC0-D57E70F98EC4" name="Utilizatori">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>82A0BE5F-89F5-1976-325E-D8DECC06A56F</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_student" id="E93424B6-7D43-A661-1606-C43BAD245477">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>16EB4F5A-7DC4-3D54-E99C-F4EFE12D8C39</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_facultate" id="F64FFAA2-3110-A4DD-F3F0-11D1550C800A">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>5C49422F-EEC8-B953-3A9C-9C7CD42AC1EB</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77E60B42-CC65-2053-FC89-687B6AE7027E" name="Utilizatori_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>3CF323D0-41FA-0DCB-39B9-35F704D2E0D1</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E93424B6-7D43-A661-1606-C43BAD245477"/>
+<colUsage columnID="F64FFAA2-3110-A4DD-F3F0-11D1550C800A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

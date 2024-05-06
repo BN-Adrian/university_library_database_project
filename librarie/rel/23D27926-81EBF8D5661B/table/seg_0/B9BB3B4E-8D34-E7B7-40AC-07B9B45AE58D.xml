@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9BB3B4E-8D34-E7B7-40AC-07B9B45AE58D" name="categorii_carti">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>92217693-88D0-1431-B034-D6F0FA9E1692</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categorie" id="E79A6E86-0A6A-5413-7408-30D01C83126D">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>9FA2CCF6-5E90-B4FB-1558-7EE1FEA0B116</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_categorie" id="1939E944-7C2C-DF36-B031-64A218348C0A">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>BC058281-8C15-020D-9BB6-4F1D512E7B2C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD75A9A3-DE58-0C51-5B04-D14A1CB4D284" name="categorii_carti_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-06 16:34:12 UTC</createdTime>
+<generatorID>320F5A2D-BD32-760D-7C3C-DD1A1B20297C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E79A6E86-0A6A-5413-7408-30D01C83126D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
