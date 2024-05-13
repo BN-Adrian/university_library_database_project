@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id utilizator" id="EEE47416-52A2-1523-6430-78BBFBDBF89C">
+<Attribute name="id_utilizator" id="EEE47416-52A2-1523-6430-78BBFBDBF89C">
 <createdBy>adrian</createdBy>
 <createdTime>2024-05-13 13:15:34 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id angajat" id="7145DF9D-CA6E-5AFB-CEC8-7A88A32519DC">
+<Attribute name="id_angajat" id="7145DF9D-CA6E-5AFB-CEC8-7A88A32519DC">
 <createdBy>adrian</createdBy>
 <createdTime>2024-05-13 13:15:20 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>

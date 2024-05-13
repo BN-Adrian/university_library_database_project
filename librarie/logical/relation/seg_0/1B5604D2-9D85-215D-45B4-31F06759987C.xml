@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Imprumut -&gt; Status_Imprumut" directorySegmentName="seg_0" id="1B5604D2-9D85-215D-45B4-31F06759987C">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:09:04 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<sourcePk>51AB6577-DB95-3883-C2AC-8BF61336A6A5</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>status</nameOnSource>
+<nameOnTarget>id_status</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDBC68FC-6988-9C84-7A25-BA2773B936B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5626D672-E347-8C8C-D44E-AAC890D7039A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F90290F9-E5FD-F47D-6EEB-C34B4C167DD4" name="Carti_Scrise">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>06912A84-1B9E-87FC-5B76-E7873089157F</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autor" id="978871ED-C755-4197-7A5E-B9BFFC64E48B">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>5CC25D36-5881-E8BD-50E4-D57B629360E2</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="CF40442A-79DC-E6C0-E87C-852A4A524045">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>E7B0BC26-ED06-0E19-7DCC-CCCE065F5B69</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="028EC7A7-B41D-726E-B3F4-72041BE11D39" name="Carti_Scrise_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>E6C06067-1D0B-1C5B-E5AC-3BE023582505</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="978871ED-C755-4197-7A5E-B9BFFC64E48B"/>
+<colUsage columnID="CF40442A-79DC-E6C0-E87C-852A4A524045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DFB2653-847B-4040-C33A-D6FDF7482E8F" containerWithKeyObject="427518D6-0668-33AE-297D-0A9B4DB2A958" localFKIndex="3D2B8745-82BB-CA75-3C78-C7540724D7F2" name="Categorii_Carte_FK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>799BFA8E-7367-3A40-B1CE-C7C3C49088F5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<referredTableLongName>Carte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91DC46B8-1305-4EC0-2577-E8DCD83C5AC8</referredTableID>
+<keyObject>9A1B1EAE-8849-83D5-D68D-1D8261AF3CA1</keyObject>
+<referredKeyID>9A1B1EAE-8849-83D5-D68D-1D8261AF3CA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>isbn,categorie_carte,status_carte,Carti_Scrise_id_autor,Carti_Scrise_isbn,Imprumut_isbn,Imprumut_id_utilizator,Imprumut_status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

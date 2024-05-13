@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E536D90-B707-6131-EED7-2EAA14E8E183" name="Student">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF55EB26-CB82-7FCB-43BA-C183DFA7B034" name="Status_angajat">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:06:00 UTC</createdTime>
+<createdTime>2024-05-13 17:59:56 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
 <item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_utilizator" id="7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318">
+<Attribute name="id_status" id="EAE88FF0-839D-B6D8-A0CB-11261888FD65">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:06:53 UTC</createdTime>
+<createdTime>2024-05-13 18:00:08 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
 <item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
@@ -27,47 +27,63 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_student" id="131DD314-DDEF-912D-D641-ED3DDA8568B1">
+<Attribute name="nume_status" id="4242671B-B79B-7959-E20C-4F9BEF622FDC">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:06:06 UTC</createdTime>
+<createdTime>2024-05-13 18:00:17 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
 <item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="facultate" id="FA077913-49FC-5D6D-12DD-8AEEAC86B05B">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:07:27 UTC</createdTime>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_utilizator" id="84B0534C-6715-CD60-32AB-DCC3EC0EFD85">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:12:58 UTC</createdTime>
+<generatorID>5AF2A79B-A498-A5E8-4E0B-BE9830D3404E</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<referedAttribute>EEE47416-52A2-1523-6430-78BBFBDBF89C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="084A59EE-682A-12EE-910B-C7DD48A2AEF8">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:12:58 UTC</createdTime>
+<generatorID>5AF2A79B-A498-A5E8-4E0B-BE9830D3404E</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<referedAttribute>ED22FE3E-5E92-56A2-844D-C26F15146D0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="13DD3FCE-0DE8-613E-8957-B63B6B26575F" name="Key_1">
+<identifier id="30C9E0A0-8F3B-77D8-B7BC-3ABCC6FC6F87" name="Key_1">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:07:57 UTC</createdTime>
+<createdTime>2024-05-13 18:00:33 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318</newElementsIDs>
+<newElementsIDs>EAE88FF0-839D-B6D8-A0CB-11261888FD65,5AF2A79B-A498-A5E8-4E0B-BE9830D3404E</newElementsIDs>
 <usedAttributes>
-<attributeRef>7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318</attributeRef>
+<attributeRef>EAE88FF0-839D-B6D8-A0CB-11261888FD65</attributeRef>
+<attributeRef>84B0534C-6715-CD60-32AB-DCC3EC0EFD85</attributeRef>
+<attributeRef>084A59EE-682A-12EE-910B-C7DD48A2AEF8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

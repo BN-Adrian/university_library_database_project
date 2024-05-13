@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="427518D6-0668-33AE-297D-0A9B4DB2A958" name="Categorii">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>E920271E-E6C4-ED05-A3B2-3B0A65DD0EDF</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categorie" id="78C8A37C-E6DA-E5C3-94AE-E683FD43C614">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>5BF72C96-CD27-721F-20A0-1A27DCB6479B</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_categorie" id="49256AE7-16BE-D686-4F3C-F39825C1953E">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>02678CD1-0C7C-11DE-7D0B-13E646C4FBC1</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carte_isbn" id="09E511D5-A1CA-2285-0055-7B13664E5529">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>B79438EF-5197-F489-E570-EBC517EFE874</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="1055D8F9-DE06-5C5A-3CAD-BAF780F0AB50"/>
+</associations>
+</Column>
+<Column name="Carte_categorie_carte" id="5DA25EDE-BC75-C38F-C67A-98A844E716C0">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>EA2D891C-8551-F127-8F22-A58CC8477C0C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="0AD2629D-A828-156C-2D59-D232CD676C12"/>
+</associations>
+</Column>
+<Column name="Carte_status_carte" id="B6CA4442-9441-EBB3-2D3A-37C90CE486B6">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>3CA565A0-2539-6E17-074C-064C2D14A468</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="DC20F567-555D-209E-B6AD-7A081CEAEB4E"/>
+</associations>
+</Column>
+<Column name="Carte_Carti_Scrise_id_autor" id="239F9068-E67B-AAAA-7978-DA2B54D75F28">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>3AF8B5C1-233E-19AA-4E46-18A9F248301C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="10E32657-B36E-C85D-C329-04D367344532"/>
+</associations>
+</Column>
+<Column name="Carte_Carti_Scrise_isbn" id="02B2FD1C-167B-CD53-22DC-D98DE5722BFE">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>BD59BFCB-3628-EFDC-F8BA-86008E8FE28C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="F239F0F7-7C9A-C89D-4706-EBB7F18E552F"/>
+</associations>
+</Column>
+<Column name="Carte_isbn2" id="5929C6A3-0F3A-2C6B-903D-A239616B8385">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>C2038AFB-340A-ACF2-26CB-7D9C8B0FE638</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="EE6D2E72-DEB1-76B9-B6E3-91387EB94AF7"/>
+</associations>
+</Column>
+<Column name="Carte_id_utilizator" id="035C7A25-BD60-D714-52B0-56DFDB5982B9">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>2E3942D0-49DC-1BCE-F153-B4165796A135</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="B3F3FBE6-415D-96C2-5DBA-B493BCACACD1"/>
+</associations>
+</Column>
+<Column name="Carte_status" id="E0153864-0B5B-72D1-8112-AFCE37D7D238">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>63409474-3B2F-8D2F-D52C-DCFC2B44A8EC</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFB2653-847B-4040-C33A-D6FDF7482E8F" referredColumn="1457BD08-266B-288F-B4B7-9FC17BBBED06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61E50790-7CD8-C0EC-F589-EFA1F4D63078" name="Categorii_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>81000F15-8DAE-EC58-66C2-4F7D51DB1751</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78C8A37C-E6DA-E5C3-94AE-E683FD43C614"/>
+<colUsage columnID="09E511D5-A1CA-2285-0055-7B13664E5529"/>
+<colUsage columnID="5DA25EDE-BC75-C38F-C67A-98A844E716C0"/>
+<colUsage columnID="B6CA4442-9441-EBB3-2D3A-37C90CE486B6"/>
+<colUsage columnID="239F9068-E67B-AAAA-7978-DA2B54D75F28"/>
+<colUsage columnID="02B2FD1C-167B-CD53-22DC-D98DE5722BFE"/>
+<colUsage columnID="5929C6A3-0F3A-2C6B-903D-A239616B8385"/>
+<colUsage columnID="035C7A25-BD60-D714-52B0-56DFDB5982B9"/>
+<colUsage columnID="E0153864-0B5B-72D1-8112-AFCE37D7D238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D2B8745-82BB-CA75-3C78-C7540724D7F2" name="Categorii_Carte_FK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 18:14:51 UTC</createdTime>
+<generatorID>799BFA8E-7367-3A40-B1CE-C7C3C49088F5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09E511D5-A1CA-2285-0055-7B13664E5529"/>
+<colUsage columnID="5DA25EDE-BC75-C38F-C67A-98A844E716C0"/>
+<colUsage columnID="B6CA4442-9441-EBB3-2D3A-37C90CE486B6"/>
+<colUsage columnID="239F9068-E67B-AAAA-7978-DA2B54D75F28"/>
+<colUsage columnID="02B2FD1C-167B-CD53-22DC-D98DE5722BFE"/>
+<colUsage columnID="5929C6A3-0F3A-2C6B-903D-A239616B8385"/>
+<colUsage columnID="035C7A25-BD60-D714-52B0-56DFDB5982B9"/>
+<colUsage columnID="E0153864-0B5B-72D1-8112-AFCE37D7D238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
