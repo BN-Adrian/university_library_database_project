@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="C8BA5245-402C-FE76-A43D-506423205584">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Imprumut -&gt; Utilizator" directorySegmentName="seg_0" id="97171FCF-EAAF-3CC2-78BE-71E6D067B8A2">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-06 16:56:49 UTC</createdTime>
+<createdTime>2024-05-13 13:37:16 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
 <item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
 </engineerTo>
-<sourcePk>320F5A2D-BD32-760D-7C3C-DD1A1B20297C</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>id utilizator</nameOnSource>
+<nameOnTarget>id utilizator</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>92217693-88D0-1431-B034-D6F0FA9E1692</sourceEntity>
+<sourceEntity>CDBC68FC-6988-9C84-7A25-BA2773B936B0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>82A0BE5F-89F5-1976-325E-D8DECC06A56F</targetEntity>
+<targetEntity>96DA35D6-F884-C4AD-50AC-CC19F72034C2</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1256C76-5834-952B-7311-847ADD07F077" name="Status_Imprumut">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>5626D672-E347-8C8C-D44E-AAC890D7039A</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_status" id="DD5253F9-A88C-49FF-32E8-857ABF003A98">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>06ADB62E-DE15-9118-5EE4-7F6514F9C3BE</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_status" id="7BCCCD8D-0A38-D7A5-E780-64214E0FED5A">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>A17696AC-0A6A-3CE4-7093-A10B452A4697</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="6AC95660-F57F-C391-3404-77DB83439561">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>E3493E7D-BC46-52D6-564D-35154CF3B54F</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_utilizator" id="0CCF84B0-0F3F-57A1-A359-B78FCD275BBD">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>BD2CE77B-9CE3-C718-DE08-C8324CF87521</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="72FE27AD-0F4E-254C-A77B-EE35593CC9F7">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>C9C41297-73C8-B4D2-2D60-BD4C1DA347D3</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32A0510E-6413-46E0-ED40-E493DCE2D4F4" name="Status_Imprumut_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>5B88CF8C-3FC8-23B0-AFD5-F1B6FB87F211</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5253F9-A88C-49FF-32E8-857ABF003A98"/>
+<colUsage columnID="6AC95660-F57F-C391-3404-77DB83439561"/>
+<colUsage columnID="0CCF84B0-0F3F-57A1-A359-B78FCD275BBD"/>
+<colUsage columnID="72FE27AD-0F4E-254C-A77B-EE35593CC9F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,17 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="B1BA8FFD-4B66-2D4F-E47E-92C972E1D65F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Imprumut -&gt; Carte" directorySegmentName="seg_0" id="C16A7D32-09DE-FFE3-581C-BD1B89CD99A4">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-06 16:25:12 UTC</createdTime>
+<createdTime>2024-05-13 13:41:41 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
 <item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
 </engineerTo>
-<sourcePk>320F5A2D-BD32-760D-7C3C-DD1A1B20297C</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>isbn</nameOnSource>
+<nameOnTarget>isbn</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>92217693-88D0-1431-B034-D6F0FA9E1692</sourceEntity>
+<sourceEntity>CDBC68FC-6988-9C84-7A25-BA2773B936B0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>941F1245-4080-E7BC-4FB7-C65DB1220254</targetEntity>
 <transferable>true</transferable>

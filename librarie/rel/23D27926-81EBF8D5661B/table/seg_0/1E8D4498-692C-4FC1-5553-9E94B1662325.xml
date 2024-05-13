@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E8D4498-692C-4FC1-5553-9E94B1662325" name="Student">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>1E536D90-B707-6131-EED7-2EAA14E8E183</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_utilizator" id="B4F9F1B6-365E-3D2E-F895-0C08F403B126">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_student" id="6AD64B25-0389-4BF7-A08F-A0C936ADFBAC">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>131DD314-DDEF-912D-D641-ED3DDA8568B1</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facultate" id="F4D0908E-AC5B-C452-9567-216D4D30B503">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>FA077913-49FC-5D6D-12DD-8AEEAC86B05B</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4528F8CE-28F0-7399-7205-7758D601017E" name="Student_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>13DD3FCE-0DE8-613E-8957-B63B6B26575F</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4F9F1B6-365E-3D2E-F895-0C08F403B126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

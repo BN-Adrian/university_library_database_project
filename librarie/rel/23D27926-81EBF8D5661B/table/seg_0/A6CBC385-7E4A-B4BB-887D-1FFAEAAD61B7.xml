@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6CBC385-7E4A-B4BB-887D-1FFAEAAD61B7" name="Autor">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>974C0CF5-8062-3536-7004-8D52E77E6782</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autor" id="6AEFB79C-2ED7-550B-5648-1BACD80DFB2D">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>F9A619B4-E85C-A3C0-E285-6A5BF626E551</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_autor" id="3FFE5A2D-BC79-3DBC-1669-993AC29FB8F6">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>FBCAF215-4FC6-EDA3-FCBE-94DF85B1C34E</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_autor1" id="B00AB63E-31D5-74DD-100D-43081975A0F9">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>B05B54F5-B451-CFBE-2F07-60C0A9DB803A</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="1FFA78D8-BC3C-A8C0-FDB7-330E1BAE428D">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>6A225598-F4BE-3B78-E7C2-704DBC083F30</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFDB6A35-90D0-A975-4C9E-73B164B92402" name="Autor_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>CA4F73B2-D2B0-0B86-3C37-E381CCFF1A00</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AEFB79C-2ED7-550B-5648-1BACD80DFB2D"/>
+<colUsage columnID="B00AB63E-31D5-74DD-100D-43081975A0F9"/>
+<colUsage columnID="1FFA78D8-BC3C-A8C0-FDB7-330E1BAE428D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

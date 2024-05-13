@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5459FC6F-B9A8-F222-CB93-DCC296CB2EC6" name="Imprumut">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>CDBC68FC-6988-9C84-7A25-BA2773B936B0</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="isbn" id="AB18FB03-363B-C45B-267D-E696E955DA8E">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>6893F24E-6DC0-DDD0-9EF1-ED5422A2F14A</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_utilizator" id="A3E0B8EB-8F88-A7A6-7824-1D43ED493241">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>B36E18FA-0F52-FD04-4FE4-EB2BE19AA44A</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="73B699EA-5DD4-0882-7C73-BA66B8766239">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>71A0219D-1B32-B1D8-D0DE-0964BBAC033A</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_imprumut" id="1321FFF0-5B34-679B-8ECD-3699404D7959">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>48A8C602-D094-3249-4013-D0B1D4B67741</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_imprumut" id="34A16285-B48F-08E7-3E56-7EA7B545A673">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>3925D4D7-3B99-A09A-DBF9-2CEC0169E620</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_retur" id="02D3E902-ACAE-95B9-BD07-E64BF6488241">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>5975687B-255F-CD2C-1DF6-17D66974CACA</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

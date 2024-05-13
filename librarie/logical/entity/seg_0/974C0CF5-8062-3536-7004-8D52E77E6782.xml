@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="974C0CF5-8062-3536-7004-8D52E77E6782" name="Autor">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-12 15:00:06 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id autor" id="F9A619B4-E85C-A3C0-E285-6A5BF626E551">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-12 15:00:15 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume autor" id="FBCAF215-4FC6-EDA3-FCBE-94DF85B1C34E">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-12 15:00:44 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id autor1" id="B05B54F5-B451-CFBE-2F07-60C0A9DB803A">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 13:43:07 UTC</createdTime>
+<generatorID>A06D8C1A-5344-C9E3-5C4F-D4F93F8D15B9</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<referedAttribute>5CC25D36-5881-E8BD-50E4-D57B629360E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isbn" id="6A225598-F4BE-3B78-E7C2-704DBC083F30">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 13:43:07 UTC</createdTime>
+<generatorID>A06D8C1A-5344-C9E3-5C4F-D4F93F8D15B9</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<referedAttribute>E7B0BC26-ED06-0E19-7DCC-CCCE065F5B69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA4F73B2-D2B0-0B86-3C37-E381CCFF1A00" name="Key_1">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 13:32:36 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F9A619B4-E85C-A3C0-E285-6A5BF626E551,A06D8C1A-5344-C9E3-5C4F-D4F93F8D15B9</newElementsIDs>
+<usedAttributes>
+<attributeRef>F9A619B4-E85C-A3C0-E285-6A5BF626E551</attributeRef>
+<attributeRef>B05B54F5-B451-CFBE-2F07-60C0A9DB803A</attributeRef>
+<attributeRef>6A225598-F4BE-3B78-E7C2-704DBC083F30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

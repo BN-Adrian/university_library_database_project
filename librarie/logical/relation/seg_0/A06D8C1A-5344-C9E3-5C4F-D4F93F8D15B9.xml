@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Carte Scrisa -&gt; Autor" directorySegmentName="seg_0" id="A06D8C1A-5344-C9E3-5C4F-D4F93F8D15B9">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 13:43:07 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<sourcePk>E6C06067-1D0B-1C5B-E5AC-3BE023582505</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>id autor</nameOnSource>
+<nameOnTarget>id autor</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>06912A84-1B9E-87FC-5B76-E7873089157F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>974C0CF5-8062-3536-7004-8D52E77E6782</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

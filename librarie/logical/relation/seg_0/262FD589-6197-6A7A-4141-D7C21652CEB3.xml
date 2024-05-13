@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Carte -&gt; Status Carte" directorySegmentName="seg_0" id="262FD589-6197-6A7A-4141-D7C21652CEB3">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 13:35:49 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<nameOnSource>status </nameOnSource>
+<nameOnTarget>id status</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>941F1245-4080-E7BC-4FB7-C65DB1220254</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>79EEB445-4F17-650E-E589-FDAFEC2074B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

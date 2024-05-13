@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BD3E0B8-CEC9-711B-5984-C87A44B16EBD" name="Angajat">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>A986858A-1F07-AA34-C3E6-A712DC97D153</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_utilizator" id="69208003-8C37-9614-6E67-D209703AFD5D">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>EEE47416-52A2-1523-6430-78BBFBDBF89C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="314344B6-D7BC-EBF9-4BA8-111352E6BC44">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>ED22FE3E-5E92-56A2-844D-C26F15146D0C</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_angajat" id="D23C294C-9317-234E-0183-7697E9F84DDF">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>7145DF9D-CA6E-5AFB-CEC8-7A88A32519DC</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="676CE4B3-345A-B2F6-031B-439D946F8A04" name="Angajat_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>343D2931-A8EE-4333-4AF4-78084B81451E</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69208003-8C37-9614-6E67-D209703AFD5D"/>
+<colUsage columnID="314344B6-D7BC-EBF9-4BA8-111352E6BC44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

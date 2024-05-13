@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65F95FDF-2F73-68C1-DA3F-F7A7BF6E911C" name="Angajat_status">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>CD99B8C4-23B3-75F4-4F63-1B338073ADB9</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_status" id="5985FC21-A09E-8E63-AD0C-0AE0D2EC2CA8">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>1877A077-AAC9-1909-9A10-91CB2F85BD15</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_status" id="5D218300-A777-402B-09CA-D2FBE5AACBA3">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>DB8FAAAE-F2E0-0AFB-C438-65ECB19FAD87</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Angajat_id_utilizator" id="A7861159-DC91-77F1-E16D-88D5AA4AE448">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>54611373-1029-0FA3-A73E-EDF763D1AA73</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61FFFFF2-BD75-0715-1C78-31629893DA3A" referredColumn="69208003-8C37-9614-6E67-D209703AFD5D"/>
+</associations>
+</Column>
+<Column name="Angajat_status" id="39717E6D-506D-06AC-A825-5D74A574AF93">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>8CA9E506-C41D-4C4C-3046-8CA6A7C413EA</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61FFFFF2-BD75-0715-1C78-31629893DA3A" referredColumn="314344B6-D7BC-EBF9-4BA8-111352E6BC44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B52292FF-16B7-4EA1-4A9B-8F387BFF5167" name="Angajat_status_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>348ADAAA-300F-0711-5999-D20943DE2A74</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5985FC21-A09E-8E63-AD0C-0AE0D2EC2CA8"/>
+<colUsage columnID="A7861159-DC91-77F1-E16D-88D5AA4AE448"/>
+<colUsage columnID="39717E6D-506D-06AC-A825-5D74A574AF93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A0ADC87-88D0-EADD-F181-3506DF66B469" name="Angajat_status_Angajat_FK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-13 14:09:16 UTC</createdTime>
+<generatorID>A392CA4A-236A-C0A5-0453-0BC0B19354C5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7861159-DC91-77F1-E16D-88D5AA4AE448"/>
+<colUsage columnID="39717E6D-506D-06AC-A825-5D74A574AF93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
