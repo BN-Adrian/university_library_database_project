@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26845A1E-0C7B-8893-1261-0D63E1D64BE3" name="Imprumut">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:52:52 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Imprumut" id="08FCB76D-86AC-C515-B7AD-DEE6E8AD5775">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:53:00 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_imprumut" id="E72CC30A-8225-68DE-374E-1BC7F50B9AD9">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:53:29 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_retur" id="20B8CFD6-2EAA-6922-F4D4-C649B0061D44">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:53:42 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilizator" id="EE9372E3-C66E-ABAA-CCB9-D633201B4011">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:59:08 UTC</createdTime>
+<generatorID>F0A80E08-DF07-40BD-6BFA-C6C3BB78A3F5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>781FCE13-FC45-F1FC-3C15-67C2E1E69B0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_student" id="22D9DEF0-3360-D4EC-0766-6E96D6EB4795">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:59:08 UTC</createdTime>
+<generatorID>F0A80E08-DF07-40BD-6BFA-C6C3BB78A3F5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>EDF5055A-AA21-D860-76BC-C055A813246A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_angajat" id="F51FC446-DEDD-D886-7BA3-C7607FF99D54">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:59:08 UTC</createdTime>
+<generatorID>F0A80E08-DF07-40BD-6BFA-C6C3BB78A3F5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>7FE1317A-A195-9E58-8335-855EB16ED9AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilizator1" id="FE4FB12E-4B56-918A-22E0-B5A336324519">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:59:08 UTC</createdTime>
+<generatorID>F0A80E08-DF07-40BD-6BFA-C6C3BB78A3F5</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>73B6DF40-6BA1-6694-026C-00C92A59E0DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isbn" id="15122340-145B-6AB5-6184-B25C971BAB55">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 15:00:16 UTC</createdTime>
+<generatorID>65D14CBE-BFA9-4F00-34E1-22D48FF6F28F</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>99CE61C7-6971-9986-C78E-AFED5326FF52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categorie1" id="470A98C0-7E1C-DCD5-E02B-17A0FE5F17FA">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 15:00:16 UTC</createdTime>
+<generatorID>65D14CBE-BFA9-4F00-34E1-22D48FF6F28F</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>61826606-A30E-DA00-4571-C11047D1E45E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9C89979-AC1E-A3D1-9FB3-47361BBF27F4" name="Key_1">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:54:55 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>08FCB76D-86AC-C515-B7AD-DEE6E8AD5775,F0A80E08-DF07-40BD-6BFA-C6C3BB78A3F5,65D14CBE-BFA9-4F00-34E1-22D48FF6F28F</newElementsIDs>
+<usedAttributes>
+<attributeRef>08FCB76D-86AC-C515-B7AD-DEE6E8AD5775</attributeRef>
+<attributeRef>EE9372E3-C66E-ABAA-CCB9-D633201B4011</attributeRef>
+<attributeRef>22D9DEF0-3360-D4EC-0766-6E96D6EB4795</attributeRef>
+<attributeRef>F51FC446-DEDD-D886-7BA3-C7607FF99D54</attributeRef>
+<attributeRef>FE4FB12E-4B56-918A-22E0-B5A336324519</attributeRef>
+<attributeRef>15122340-145B-6AB5-6184-B25C971BAB55</attributeRef>
+<attributeRef>470A98C0-7E1C-DCD5-E02B-17A0FE5F17FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

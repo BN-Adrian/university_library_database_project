@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C7928D3-DF35-2044-2481-021091CE264F" name="Autor">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<generatorID>5EB9F806-AAF2-5BA6-6113-48B824F8F639</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autor" id="91D3389A-D51D-0182-AD28-B257D341A9B8">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<generatorID>8F499E89-294F-57EC-99DE-45A4E2F306D3</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_autor" id="2B6A15F3-A16F-8CF9-DAB4-F7F60A048E87">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<generatorID>CE94E74B-59CD-B893-4FE8-50D73B4954A9</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume_autor)&gt;1"/>
+</checkConstraint>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6425BC84-BA18-A8ED-1B9D-EECE712499FB" name="Key_1">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<generatorID>D96E6ED1-BE13-84BD-9DB0-9C0AEA8E8A38</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D3389A-D51D-0182-AD28-B257D341A9B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

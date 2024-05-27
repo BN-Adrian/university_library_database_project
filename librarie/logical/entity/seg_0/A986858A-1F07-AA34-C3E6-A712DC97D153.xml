@@ -4,7 +4,7 @@
 <createdTime>2024-05-13 13:14:55 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_utilizator" id="EEE47416-52A2-1523-6430-78BBFBDBF89C">
+<Attribute name="id_angajat" id="EEE47416-52A2-1523-6430-78BBFBDBF89C">
 <createdBy>adrian</createdBy>
 <createdTime>2024-05-13 13:15:34 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,19 +32,20 @@
 <createdTime>2024-05-13 13:15:57 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_angajat" id="7145DF9D-CA6E-5AFB-CEC8-7A88A32519DC">
+<Attribute name="nr_telefon" id="31ED223A-E1E1-7127-5D2A-771391338122">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 13:15:20 UTC</createdTime>
+<createdTime>2024-05-21 14:22:59 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,21 +53,45 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_utilizator1" id="507B1FFB-1FDD-FCAA-43B2-BA3951CF1D6C">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:25:49 UTC</createdTime>
+<generatorID>C6AE8B7E-ADF6-FC3D-CA51-30037617C85D</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<referedAttribute>781FCE13-FC45-F1FC-3C15-67C2E1E69B0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="343D2931-A8EE-4333-4AF4-78084B81451E" name="Key_1">
+<identifier id="4D04B44A-3810-CAB6-3032-DB41482486ED" name="Angajat PK">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 13:30:51 UTC</createdTime>
+<createdTime>2024-05-21 14:06:19 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="false"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>EEE47416-52A2-1523-6430-78BBFBDBF89C,ED22FE3E-5E92-56A2-844D-C26F15146D0C</newElementsIDs>
 <usedAttributes>
 <attributeRef>EEE47416-52A2-1523-6430-78BBFBDBF89C</attributeRef>
-<attributeRef>ED22FE3E-5E92-56A2-844D-C26F15146D0C</attributeRef>
+<attributeRef>507B1FFB-1FDD-FCAA-43B2-BA3951CF1D6C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8E024CBF-FCDB-2949-8715-512B8D35903B" name="nr_tel">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 15:02:34 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<newElementsIDs>31ED223A-E1E1-7127-5D2A-771391338122</newElementsIDs>
+<usedAttributes>
+<attributeRef>31ED223A-E1E1-7127-5D2A-771391338122</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

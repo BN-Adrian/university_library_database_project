@@ -4,7 +4,7 @@
 <createdTime>2024-05-13 14:06:00 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,26 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_utilizator" id="7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:06:53 UTC</createdTime>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_student" id="131DD314-DDEF-912D-D641-ED3DDA8568B1">
 <createdBy>adrian</createdBy>
 <createdTime>2024-05-13 14:06:06 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -45,29 +32,52 @@
 <createdTime>2024-05-13 14:07:27 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_telefon" id="CABDBBE9-A571-15BB-6E98-24E5DFD203D0">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 14:05:53 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="13DD3FCE-0DE8-613E-8957-B63B6B26575F" name="Key_1">
+<identifier id="C9026BED-E69F-4451-5C27-FBB3E11C9873" name="id_student">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 14:07:57 UTC</createdTime>
+<createdTime>2024-05-21 14:31:36 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="false"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318</newElementsIDs>
+<newElementsIDs>131DD314-DDEF-912D-D641-ED3DDA8568B1</newElementsIDs>
 <usedAttributes>
-<attributeRef>7B5E693D-7BDD-A1E4-BB9A-C73AE6F82318</attributeRef>
+<attributeRef>131DD314-DDEF-912D-D641-ED3DDA8568B1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2992A00A-A31E-4BFF-9814-76F0162E85DD" name="nr_tel">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-21 15:02:18 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<engineerTo>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
+</engineerTo>
+<newElementsIDs>CABDBBE9-A571-15BB-6E98-24E5DFD203D0</newElementsIDs>
+<usedAttributes>
+<attributeRef>CABDBBE9-A571-15BB-6E98-24E5DFD203D0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

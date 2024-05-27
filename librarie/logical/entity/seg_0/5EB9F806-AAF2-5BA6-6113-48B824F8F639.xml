@@ -4,7 +4,7 @@
 <createdTime>2024-05-13 17:52:26 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2024-05-13 17:52:31 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,41 +32,16 @@
 <createdTime>2024-05-13 17:52:44 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume_autor)&gt;1"/>
+</checkConstraint>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_autor1" id="57B52650-38CE-1FF7-AFA6-0BC3B26FA7C4">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:01:30 UTC</createdTime>
-<generatorID>E7C474C7-234A-4F19-8E14-326249631B0F</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>5CC25D36-5881-E8BD-50E4-D57B629360E2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="isbn" id="1F3EE21F-F02B-FA91-D033-720A759FAF9C">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:01:30 UTC</createdTime>
-<generatorID>E7C474C7-234A-4F19-8E14-326249631B0F</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>E7B0BC26-ED06-0E19-7DCC-CCCE065F5B69</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -74,16 +49,13 @@
 <createdBy>adrian</createdBy>
 <createdTime>2024-05-13 17:53:20 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="false"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>8F499E89-294F-57EC-99DE-45A4E2F306D3,E7C474C7-234A-4F19-8E14-326249631B0F</newElementsIDs>
+<newElementsIDs>8F499E89-294F-57EC-99DE-45A4E2F306D3</newElementsIDs>
 <usedAttributes>
 <attributeRef>8F499E89-294F-57EC-99DE-45A4E2F306D3</attributeRef>
-<attributeRef>57B52650-38CE-1FF7-AFA6-0BC3B26FA7C4</attributeRef>
-<attributeRef>1F3EE21F-F02B-FA91-D033-720A759FAF9C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

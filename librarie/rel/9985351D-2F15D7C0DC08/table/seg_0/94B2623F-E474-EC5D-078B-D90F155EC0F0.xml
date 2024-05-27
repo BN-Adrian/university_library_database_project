@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94B2623F-E474-EC5D-078B-D90F155EC0F0" name="Relation_25">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Autor_id_autor" id="013344A1-2615-8671-C312-C5440156D2F4">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B3AA848-9784-DC14-1CF1-BAD38A7419A0" referredColumn="91D3389A-D51D-0182-AD28-B257D341A9B8"/>
+</associations>
+</Column>
+<Column name="Carte_isbn" id="76429813-6E25-F747-2670-912B21C6717A">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B43DE7A4-2F15-5FA6-3EA1-B90182867A92" referredColumn="AE315D52-2A71-2BFF-7D59-2D74FE62B1A1"/>
+</associations>
+</Column>
+<Column name="Carte_id_categorie1" id="DA9BE92D-A96D-7BD4-3103-5A8EEC9702A9">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B43DE7A4-2F15-5FA6-3EA1-B90182867A92" referredColumn="9554FC5D-8BF9-2F04-66F7-503A250C5187"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60033DBD-7809-5585-F18F-A1AFA8FD1B3B" name="Relation_25_PK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<ownerDesignName>librarie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013344A1-2615-8671-C312-C5440156D2F4"/>
+<colUsage columnID="76429813-6E25-F747-2670-912B21C6717A"/>
+<colUsage columnID="DA9BE92D-A96D-7BD4-3103-5A8EEC9702A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="904513AE-9183-26FD-0E29-DA908FEA1E1D" name="Relation_25_Autor_FK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<generatorID>89D706B7-51E1-A944-C6ED-C193C7720142</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013344A1-2615-8671-C312-C5440156D2F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="973A384E-27DE-1F69-AD2A-057054E8391C" name="Relation_25_Carte_FK">
+<createdBy>adrian</createdBy>
+<createdTime>2024-05-26 16:57:30 UTC</createdTime>
+<generatorID>89D706B7-51E1-A944-C6ED-C193C7720142</generatorID>
+<ownerDesignName>librarie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76429813-6E25-F747-2670-912B21C6717A"/>
+<colUsage columnID="DA9BE92D-A96D-7BD4-3103-5A8EEC9702A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2024-05-13 17:54:50 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2024-05-13 17:55:00 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,110 +32,29 @@
 <createdTime>2024-05-13 17:55:10 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume_carte)&gt;1"/>
+</checkConstraint>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="categorie_carte" id="D7EC6F78-7964-EC8B-7730-4D5DF317142B">
+<Attribute name="id_categorie1" id="61826606-A30E-DA00-4571-C11047D1E45E">
 <createdBy>adrian</createdBy>
-<createdTime>2024-05-13 17:55:32 UTC</createdTime>
+<createdTime>2024-05-21 14:16:23 UTC</createdTime>
+<generatorID>CF1A41BC-7576-F567-C2BC-509468CB0A88</generatorID>
 <ownerDesignName>librarie</ownerDesignName>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="status_carte" id="E4FF49B4-0D27-D5DF-DC9F-5E4B4EAB2DD3">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 17:56:07 UTC</createdTime>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_autor" id="E64FD7D3-7372-7732-F86A-755077EA519E">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:02:14 UTC</createdTime>
-<generatorID>3E32B67E-5071-6B9C-7DA2-8D2C2A59F5FD</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>5CC25D36-5881-E8BD-50E4-D57B629360E2</referedAttribute>
+<referedAttribute>5BF72C96-CD27-721F-20A0-1A27DCB6479B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="isbn1" id="19A85D07-15AB-E902-F528-2A1A0EB509E8">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:02:14 UTC</createdTime>
-<generatorID>3E32B67E-5071-6B9C-7DA2-8D2C2A59F5FD</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>E7B0BC26-ED06-0E19-7DCC-CCCE065F5B69</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="isbn2" id="6515624B-7C7C-FC9B-01DC-BA61E2D1BCFC">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:05:43 UTC</createdTime>
-<generatorID>6BD63B40-C033-DB72-1ACA-FF77F818AD97</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>6893F24E-6DC0-DDD0-9EF1-ED5422A2F14A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_utilizator" id="6C4AAFD1-E79F-5865-8548-F119205E1DE4">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:05:43 UTC</createdTime>
-<generatorID>6BD63B40-C033-DB72-1ACA-FF77F818AD97</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>B36E18FA-0F52-FD04-4FE4-EB2BE19AA44A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="status " id="248A5CFD-CB90-EFAA-72ED-05343C09CCBD">
-<createdBy>adrian</createdBy>
-<createdTime>2024-05-13 18:05:43 UTC</createdTime>
-<generatorID>6BD63B40-C033-DB72-1ACA-FF77F818AD97</generatorID>
-<ownerDesignName>librarie</ownerDesignName>
-<engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="true"/>
-</engineerTo>
-<referedAttribute>71A0219D-1B32-B1D8-D0DE-0964BBAC033A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -144,21 +63,14 @@
 <createdBy>adrian</createdBy>
 <createdTime>2024-05-13 17:56:51 UTC</createdTime>
 <ownerDesignName>librarie</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23D27926-9CD5-92BA-B9AF-81EBF8D5661B" value="false"/>
+<item key="E59EDF47-30FD-BFE9-CB79-7DA876A8F2BC" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>99CE61C7-6971-9986-C78E-AFED5326FF52,D7EC6F78-7964-EC8B-7730-4D5DF317142B,E4FF49B4-0D27-D5DF-DC9F-5E4B4EAB2DD3,3E32B67E-5071-6B9C-7DA2-8D2C2A59F5FD,6BD63B40-C033-DB72-1ACA-FF77F818AD97</newElementsIDs>
+<newElementsIDs>99CE61C7-6971-9986-C78E-AFED5326FF52,CF1A41BC-7576-F567-C2BC-509468CB0A88</newElementsIDs>
 <usedAttributes>
 <attributeRef>99CE61C7-6971-9986-C78E-AFED5326FF52</attributeRef>
-<attributeRef>D7EC6F78-7964-EC8B-7730-4D5DF317142B</attributeRef>
-<attributeRef>E4FF49B4-0D27-D5DF-DC9F-5E4B4EAB2DD3</attributeRef>
-<attributeRef>E64FD7D3-7372-7732-F86A-755077EA519E</attributeRef>
-<attributeRef>19A85D07-15AB-E902-F528-2A1A0EB509E8</attributeRef>
-<attributeRef>6515624B-7C7C-FC9B-01DC-BA61E2D1BCFC</attributeRef>
-<attributeRef>6C4AAFD1-E79F-5865-8548-F119205E1DE4</attributeRef>
-<attributeRef>248A5CFD-CB90-EFAA-72ED-05343C09CCBD</attributeRef>
+<attributeRef>61826606-A30E-DA00-4571-C11047D1E45E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
